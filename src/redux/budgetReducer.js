@@ -1,13 +1,12 @@
 
-
 const initialState = {
     purchases: [],
     budgetLimit: null,
     loading: false
 }
 
-const reducer = (state = initialState, action) => {
+const budgetReducer = (state = initialState, action) => {
     return state
 }
 
-export default reducer
+export default budgetReducer
